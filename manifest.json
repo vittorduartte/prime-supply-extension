@@ -1,0 +1,20 @@
+{
+    "name":"Prime Supply",
+    "version":"0.1",
+    "manifest_version": 1,
+    "description": "Extensão para a plataforma Prime Video para saltar anúncios, aberturas, pular para o próximo capítulo e muito mais.",
+    "icons" : {
+        "16": "assets/icons/icon-16.png",
+        "128": "assets/icons/icon-128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.primevideo.com/*/*"
+            ],
+            "js": [
+                "scripts/index.js"
+            ]
+        }
+    ]    
+}
