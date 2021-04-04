@@ -7,6 +7,15 @@ const skipTheOpening = () => {
     }
 }
 
+const forwardToNextChapter = () => {
+    const forwardButton = window.document.querySelector('.nextUpCard');
+    if(forwardButton) {
+        forwardButton.click();
+    } else {
+        return false;
+    }
+}
+
 setInterval(() => {
     skipTheOpening();
     forwardToNextChapter();
