@@ -13,7 +13,10 @@
                 "*://*.primevideo.com/*/*"
             ],
             "js": [
-                "scripts/index.js"
+                "/scripts/*.js"
+            ],
+            "css": [
+                "/styles/*.css"
             ]
         }
     ]    
